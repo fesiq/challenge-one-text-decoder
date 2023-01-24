@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+header {
+    margin: 40px;
+}
+
+main{
+    display: flex;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.entrada-encriptador {
+    width: 60%;
+}
+
+.saida-encriptador {
+    width: 35%;
+}
+
+#entrada-texto {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #0A3871;
+    border-color: #0A3871;
+    text-align: left;
+    vertical-align: top;
+}
