@@ -31,3 +31,17 @@ main{
     text-align: left;
     vertical-align: top;
 }
+
+footer {
+    text-align: center;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    position: fixed;
+    background: linear-gradient(transparent, 90%,aqua);
+}
+
+footer * {
+    background-color: transparent;
+}
