@@ -18,6 +18,15 @@ textarea {
     border: transparent;
 }
 
+button {
+    border: solid 1px darkblue;
+    border-radius: 24px;
+    padding: 20px;
+    margin: 0 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
 .entrada-encriptador {
     width: 60%;
 }
