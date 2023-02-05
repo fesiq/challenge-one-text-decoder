@@ -14,12 +14,23 @@ main{
     margin: 15px auto;
 }
 
+textarea {
+    border: transparent;
+}
+
 .entrada-encriptador {
     width: 60%;
 }
 
 .saida-encriptador {
     width: 35%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.saida-encriptador * {
+    /*consertar fundo dos itens da saída*/
+    background-color: transparent;
 }
 
 #entrada-texto {
