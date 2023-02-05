@@ -33,6 +33,11 @@ textarea {
     background-color: transparent;
 }
 
+.saida-encriptador textarea {
+    width: 80%;
+    padding: 10%;
+}
+
 #entrada-texto {
     font-weight: 400;
     font-size: 32px;
