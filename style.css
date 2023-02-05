@@ -34,7 +34,7 @@ button {
 .saida-encriptador {
     width: 35%;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 32px;
 }
 
 .saida-encriptador * {
