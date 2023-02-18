@@ -37,7 +37,7 @@ button {
     padding: 10px 0;
 }
 
-.btn-encriptar .btn-copiar {
+.btn-encriptar, .btn-copiar {
     background-color: #0A3871;
     color: white;
 }
