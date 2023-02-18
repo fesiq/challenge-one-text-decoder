@@ -29,6 +29,19 @@ button {
     font-size: 16px;
 }
 
+.info {
+    font-size: small;
+}
+
+.botoes-entrada {
+    padding: 10px 0;
+}
+
+.btn-encriptar .btn-copiar {
+    background-color: #0A3871;
+    color: white;
+}
+
 .entrada-encriptador {
     width: 60%;
 }
