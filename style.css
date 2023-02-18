@@ -42,11 +42,26 @@ button {
 .saida-encriptador * {
     /*consertar fundo dos itens da saída*/
     background-color: transparent;
+    padding: 20px 0;
 }
 
 .saida-encriptador .saida-estado-ativo textarea {
     width: 80%;
     padding: 10%;
+}
+
+.saida-encriptador .saida-estado-espera .mensagem-espera-destaque {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    color: #343A40;
+    padding: 10px 0 0;
+}
+
+.saida-encriptador .saida-estado-espera .mensagem-espera-texto {
+    color: #495057;
+    padding: 10px 0 ;
 }
 
 #entrada-texto {
