@@ -6,6 +6,7 @@
 
 header {
     margin: 40px;
+    min-height: 20%;
 }
 
 main{
@@ -35,6 +36,7 @@ button {
     width: 35%;
     background-color: #fff;
     border-radius: 32px;
+    min-height: 80%;
 }
 
 .saida-encriptador * {
