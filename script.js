@@ -44,3 +44,9 @@ function desencriptar() {
     trocaDiamantePorOutput();
     inputTexto.value = "";
 }
+
+function copiar() {
+    let textoCopiado = outputTexto;
+    textoCopiado.select();
+    document.execCommand("copy");
+}
