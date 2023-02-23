@@ -35,6 +35,10 @@ button {
     font-size: small;
 }
 
+.info p img {
+    vertical-align: top;
+}
+
 .botoes-entrada {
     padding: 10px 0;
 }
