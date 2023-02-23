@@ -18,6 +18,7 @@ main{
 
 textarea {
     border: transparent;
+    text-transform: lowercase;
 }
 
 button {
