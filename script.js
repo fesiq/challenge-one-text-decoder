@@ -32,3 +32,15 @@ function cifrar(textoBase, boolEncripta) {
     }
     return textoBase;
 }
+
+function encriptar() {
+    outputTexto.value = cifrar(inputTexto.value, true);
+    trocaDiamantePorOutput();
+    inputTexto.value = "";
+}
+
+function desencriptar() {
+    outputTexto.value = cifrar(inputTexto.value, false);
+    trocaDiamantePorOutput();
+    inputTexto.value = "";
+}
