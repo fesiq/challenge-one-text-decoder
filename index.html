@@ -23,14 +23,14 @@
             </div>
 
             <div class="botoes-entrada">
-                <button class="btn-encriptar">Criptografar</button>
-                <button class="btn-desencriptar">Descriptografar</button>
+                <button class="btn-encriptar" onclick="trocaDiamantePorOutput()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="trocaDiamantePorOutput()">Descriptografar</button>
             </div>
         </section>
         <section class="saida-encriptador">
             <div class="saida-estado-ativo" style="display: none">
                 <textarea id="saida-texto" cols="25" rows="15"></textarea>
-                <button class="btn-copiar">Copiar</button>
+                <button class="btn-copiar" onclick="trocaDiamantePorOutput()">Copiar</button>
             </div>
             <div class="saida-estado-espera">
                 <img src="./img/diamond-looking.png" alt="Homem olhando para um diamante com uma lupa.">
@@ -43,6 +43,7 @@
         <p>
             &copy; 2023. Desenvolvido por <a href="https://www.linkedin.com/in/fesiq/">Fernando Siqueira</a>
         </p>
+        <script src="./script.js"></script>
     </footer>
 </body>
 
